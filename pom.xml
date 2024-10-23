@@ -9,8 +9,8 @@
 
     <properties>
         <junit.jupiter.version>5.9.1</junit.jupiter.version>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -129,7 +129,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <nvdApiKey>9d0b2741-9ee6-4dbc-8fde-f5669ed2074e</nvdApiKey>
                     <nvdApiDelay>2500</nvdApiDelay>
                 </configuration>
             </plugin>
